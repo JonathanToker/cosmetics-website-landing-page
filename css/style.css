@@ -10383,3 +10383,8 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   height: 344px;
   border-radius: 5px;
 }
+
+.sectionimg {
+  width: 550px;
+  height: 550px;
+}
