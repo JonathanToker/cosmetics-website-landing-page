@@ -6816,7 +6816,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .card-corporate {
-  text-align: left;
+  text-align: right;
 }
 
 .card-corporate .card-title a,
@@ -10381,10 +10381,18 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 .three-images {
   width: 390px;
   height: 344px;
-  border-radius: 5px;
 }
 
 .sectionimg {
   width: 550px;
   height: 550px;
+}
+.small-img {
+  width: 75px;
+  height: 75px;
+}
+.nefotzot {
+  font-size: 33px;
+  color: #fe9b8e;
+  font-weight: 500;
 }
