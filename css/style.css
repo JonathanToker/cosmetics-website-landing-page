@@ -2046,7 +2046,7 @@ a[href*="mailto"] {
 .testimonial-box .testimonial-rate {
   max-width: 146px;
   position: absolute;
-  left: 63.5%;
+  right: 63.5%;
   top: 70px;
 }
 
@@ -2227,6 +2227,10 @@ html .group-xl > * {
 html .group-xxl {
   margin-bottom: -20px;
   margin-left: -30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
 }
 
 html .group-xxl:empty {
@@ -10381,6 +10385,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 .three-images {
   width: 390px;
   height: 344px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .sectionimg {
@@ -10395,4 +10400,23 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   font-size: 33px;
   color: #fe9b8e;
   font-weight: 500;
+}
+
+.custom-gap {
+  column-gap: 40px;
+}
+
+.main-image {
+  height: 650px;
+  width: 500px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@media screen and (max-width: 600px) {
+  .main-image {
+    padding: 5px;
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+  }
 }
