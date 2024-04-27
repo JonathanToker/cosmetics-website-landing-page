@@ -2517,7 +2517,7 @@ img {
 }
 
 .icon-default {
-  color: #a5aad3;
+  color: #ffffff;
 }
 
 .icon-circle {
@@ -3846,7 +3846,7 @@ textarea.form-input {
 /** @section Footers */
 .footer-classic {
   padding: 100px 0;
-  background: #0b1455;
+  background: #fe9b8e;
   color: #ffffff;
 }
 
@@ -3890,11 +3890,11 @@ textarea.form-input {
 
 .footer-classic .rights {
   font-size: 14px;
-  color: #a5aad3;
+  color: #ffffff;
 }
 
 .footer-classic .rights a:hover {
-  color: #fe9b8e;
+  color: #0c1451;
 }
 
 .footer-classic .list-wrapper {
