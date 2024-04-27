@@ -10420,3 +10420,12 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
     border-radius: 5px;
   }
 }
+
+.shadows {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.navbar-image {
+  width: 75px;
+  height: 75px;
+}
