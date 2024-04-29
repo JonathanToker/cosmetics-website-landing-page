@@ -10429,3 +10429,24 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   width: 75px;
   height: 75px;
 }
+
+.parent-img-wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.parent-img-wrap::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background: url("http://127.0.0.1:5500/images/flowers3.webp");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
