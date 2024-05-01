@@ -4180,8 +4180,10 @@ html:not(.lt-ie10) .not-animated {
   transform: translate3d(0, 0, 0);
 }
 
-html.mobile .ui-to-top,
-html.tablet .ui-to-top {
+/* removed .ui-to-top , at the one beneath too.ui-to-top  */
+
+html.mobile,
+html.tablet {
   display: none !important;
 }
 
@@ -10415,7 +10417,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 @media screen and (max-width: 600px) {
   .main-image {
     padding: 5px;
-    height: 400px;
+    height: 350px;
     width: 400px;
     border-radius: 5px;
   }
