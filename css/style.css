@@ -1730,6 +1730,7 @@ a[href*="mailto"] {
 }
 
 .box-info-modern-figure {
+  position: relative;
   display: block;
   padding: 10px;
 }
@@ -10385,9 +10386,11 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 .three-images {
+  position: relative;
   width: 390px;
   height: 344px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 9px;
 }
 
 .sectionimg {
@@ -10456,4 +10459,34 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   .smm-none {
     display: none;
   }
+}
+
+.m0 {
+  margin-top: 0px;
+}
+
+.vid-cover {
+  top: 0; /* Position at top edge */
+  left: 0; /* Position at left edge */
+  width: 100%; /* Cover full width */
+  height: 100%;
+}
+
+.vid-right-p-1 {
+  display: flex;
+  justify-content: center;
+}
+.three-videos {
+  position: relative;
+  width: 330px;
+  height: 360px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 9px;
+}
+
+.j-vids {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
