@@ -197,6 +197,7 @@ html p a:hover {
 
 html.boxed body {
   background: #edeff4 url(../images/bg-pattern-boxed.png) repeat fixed;
+  font-family: "Rubik" !important;
 }
 
 @media (min-width: 1630px) {
@@ -1082,7 +1083,7 @@ p.rights a:hover {
 /** @group Components */
 /** @section Typography */
 body {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   line-height: 1.55556;
   font-weight: 400;
@@ -1635,16 +1636,16 @@ a[href*="mailto"] {
 
 .box-counter-title {
   display: inline-block;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.3;
   letter-spacing: -0.025em;
 }
 
 .box-counter-main {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
   font-size: 45px;
   font-weight: 400;
   line-height: 1.2;
@@ -2664,7 +2665,7 @@ hr {
   font-size: 18px;
   line-height: 1.25;
   border: 2px solid;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 600;
   letter-spacing: 0.03em;
   text-transform: capitalize;
@@ -3023,7 +3024,7 @@ hr {
 
 .btn-primary {
   border-radius: 3px;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -3346,7 +3347,7 @@ textarea.form-input {
 .checkbox .checkbox-custom-dummy::after,
 .checkbox-inline .checkbox-custom-dummy::after {
   content: "\f222";
-  font-family: "Material Design Icons";
+  font-family: "Rubik";
   position: absolute;
   top: -1px;
   left: -2px;
@@ -3640,7 +3641,7 @@ textarea.form-input {
 
 .breadcrumbs-custom-path li::after {
   content: "";
-  font-family: "FontAwesome";
+  font-family: "Rubik";
   position: absolute;
   top: 52%;
   right: -5px;
@@ -3774,7 +3775,7 @@ textarea.form-input {
 }
 
 .page-item-control .icon::before {
-  font-family: "FontAwesome";
+  font-family: "Rubik";
   font-size: 11px;
   line-height: 24px;
 }
@@ -4583,7 +4584,7 @@ html.tablet .ui-to-top {
   left: -6px;
   display: inline-block;
   content: "\f105";
-  font-family: "FontAwesome";
+  font-family: "Rubik";
   font-size: inherit;
   line-height: inherit;
   color: #fe9b8e;
@@ -4726,7 +4727,7 @@ html.tablet .ui-to-top {
   transform: rotate(0deg) scale(1);
   opacity: 1;
   visibility: visible;
-  font-family: "Material Design Icons";
+  font-family: "Rubik";
 }
 
 .rd-navbar-static .rd-navbar-search-toggle span::after {
@@ -4734,7 +4735,7 @@ html.tablet .ui-to-top {
   transform: rotate(-90deg) scale(0.4);
   opacity: 0;
   visibility: hidden;
-  font-family: "Material Design Icons";
+  font-family: "Rubik";
 }
 
 .rd-navbar-static .rd-navbar-search-toggle.active span::before {
@@ -4994,7 +4995,7 @@ html.tablet .ui-to-top {
   right: 0;
   width: 56px;
   height: 52px;
-  font: 400 14px "FontAwesome";
+  font: 400 14px "Rubik";
   line-height: 52px;
   text-align: center;
   transition: 0.4s all ease;
@@ -5121,7 +5122,7 @@ html.tablet .ui-to-top {
   transform: rotate(0deg) scale(1);
   opacity: 1;
   visibility: visible;
-  font-family: "Material Design Icons";
+  font-family: "Rubik";
 }
 
 .rd-navbar-fixed .rd-navbar-search-toggle span::after {
@@ -5129,7 +5130,7 @@ html.tablet .ui-to-top {
   transform: rotate(-90deg) scale(0.4);
   opacity: 0;
   visibility: hidden;
-  font-family: "Material Design Icons";
+  font-family: "Rubik";
 }
 
 .rd-navbar-fixed .rd-navbar-search-toggle.active span::before {
@@ -5491,7 +5492,7 @@ html.rd-navbar-fixed-linked .page {
   content: "\f107";
   position: relative;
   display: inline-block;
-  font-family: "FontAwesome";
+  font-family: "Rubik";
   font-size: inherit;
   line-height: inherit;
   text-align: center;
@@ -5556,7 +5557,7 @@ html.rd-navbar-fixed-linked .page {
   left: -6px;
   display: inline-block;
   content: "\f105";
-  font-family: "FontAwesome";
+  font-family: "Rubik";
   font-size: inherit;
   line-height: inherit;
   color: #fe9b8e;
@@ -5968,7 +5969,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .swiper-button-prev:before {
-  font-family: "FontAwesome";
+  font-family: "Rubik";
   content: "\f060";
 }
 
@@ -5977,7 +5978,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .swiper-button-next:before {
-  font-family: "FontAwesome";
+  font-family: "Rubik";
   content: "\f061";
 }
 
@@ -6133,8 +6134,8 @@ html.rd-navbar-fixed-linked .page {
 .rd-search-results-live .search-quick-result {
   padding-left: 15px;
   padding-right: 15px;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 30px;
@@ -6165,8 +6166,8 @@ html.rd-navbar-fixed-linked .page {
 
 .rd-search-results-live .search-title {
   position: relative;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   font-weight: 700;
   color: #0c1451;
@@ -6187,7 +6188,7 @@ html.rd-navbar-fixed-linked .page {
   z-index: 0;
   display: block;
   padding: 8px;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.03em;
@@ -7319,7 +7320,7 @@ html:not(.ie-11):not(.ie-10) .countdown-circle {
 .owl-carousel .owl-next::before,
 .owl-carousel .owl-next::after {
   display: block;
-  font-family: "FontAwesome";
+  font-family: "Rubik";
 }
 
 .owl-carousel .owl-prev:hover,
@@ -8206,7 +8207,7 @@ body:not(.lg-from-hash)
   display: block;
   white-space: pre;
   padding: 4px 12px;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
 }
 
@@ -10099,7 +10100,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   position: relative;
   display: inline-block;
   content: "";
-  font-family: "Material Design Icons";
+  font-family: "Rubik";
   font-size: 18px;
   transform: rotate(0deg);
   transition: 0.1s;
