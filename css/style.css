@@ -10573,3 +10573,14 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 .strong-white-black-text-shadows {
   text-shadow: 0 0 3px #000000, 0 0 5px #ffffff;
 }
+
+.footer-sec {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 575px) {
+  .sm-right {
+    text-align: right;
+  }
+}
