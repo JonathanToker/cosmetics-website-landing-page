@@ -4157,7 +4157,7 @@ html:not(.lt-ie10) .not-animated {
   height: 50px;
   font-size: 40px;
   line-height: 46px;
-  color: #fe9b8e;
+  color: #f37abe;
   background: #ffffff;
   border-radius: 50%;
   overflow: hidden;
@@ -4170,7 +4170,7 @@ html:not(.lt-ie10) .not-animated {
 
 .ui-to-top:hover {
   color: #0c1451;
-  background: #fe9b8e;
+  background: #f37abe;
   text-decoration: none;
 }
 
