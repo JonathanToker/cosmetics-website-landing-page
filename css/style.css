@@ -10584,3 +10584,6 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
     text-align: right;
   }
 }
+.t-wrap {
+  text-wrap: wrap;
+}
